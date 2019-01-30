@@ -1,0 +1,330 @@
+"board": [{
+      "type": "start",
+      "detail": {
+         "name": "start",
+         "description": "Collect $200 salary as you pass"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Old Kent Road",
+         "price": 60,
+         "rent": 2,
+         "colour": 0
+      }
+   },
+   {
+      "type": "action",
+      "detail": {
+         "name": "Commnunity Chest",
+         "kind": "chest"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Whitechapel Road",
+         "price": 60,
+         "rent": 4,
+         "colour": 0
+      }
+   },
+   {
+      "type": "tax",
+      "detail": {
+         "name": "tax",
+         "price": 100
+      }
+   },
+   {
+      "type": "rail_road",
+      "detail": {
+         "name": "Kings Cross rail_road",
+         "price": 200,
+         "rent": 25,
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "The Angel, Islignton",
+         "price": 100,
+         "rent": 6,
+         "colour": 1
+      }
+   },
+   {
+      "type": "action",
+      "detail": {
+         "name": "Chance",
+         "kind": "chance"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Eusten Road",
+         "price": 100,
+         "rent": 6,
+         "colour": 1
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Pentoville Road",
+         "price": 120,
+         "rent": 8,
+         "colour": 1
+      }
+   },
+   {
+      "type": "jail",
+      "detail": {
+         "name": "In jail",
+         "description": "Just visiting"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Pall Mall",
+         "price": 140,
+         "rent": 10,
+         "colour": 2
+      }
+   },
+   {
+      "type": "utility",
+      "detail": {
+         "name": "Electric utility",
+         "kind": "electricity",
+         "price": 150,
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Whitehall",
+         "price": 140,
+         "rent": 10,
+         "colour": 2
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Northumberl'd Avenue",
+         "price": 160,
+         "rent": 12,
+         "colour": 2
+      }
+   },
+   {
+      "type": "rail_road",
+      "detail": {
+         "name": "Marylebone rail_road",
+         "price": 200,
+         "rent": 25,
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Bow property",
+         "price": 180,
+         "rent": 14,
+         "colour": 3
+      }
+   },
+   {
+      "type": "action",
+      "detail": {
+         "name": "Commnunity Chest",
+         "kind": "chest"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Marlborough property",
+         "price": 180,
+         "rent": 14,
+         "colour": 3
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Vine property",
+         "price": 200,
+         "rent": 16,
+         "colour": 3
+      }
+   },
+   {
+      "type": "do_nothing",
+      "detail": {
+         "name": "Free Parking"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Strand",
+         "price": 220,
+         "rent": 18,
+         "colour": 4
+      }
+   },
+   {
+      "type": "action",
+      "detail": {
+         "name": "Chance",
+         "kind": "chance"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Fleet property",
+         "price": 220,
+         "rent": 18,
+         "colour": 4
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Trafalgar Square",
+         "price": 240,
+         "rent": 20,
+         "colour": 4
+      }
+   },
+   {
+      "type": "rail_road",
+      "detail": {
+         "name": "Fenchurch St. rail_road",
+         "price": 200,
+         "rent": 25,
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Leicester Square",
+         "price": 260,
+         "rent": 22,
+         "colour": 5
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Conventry property",
+         "price": 260,
+         "rent": 22,
+         "colour": 5
+      }
+   },
+   {
+      "type": "utility",
+      "detail": {
+         "name": "Water Works",
+         "kind": "water",
+         "price": 150,
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Piccadelly",
+         "price": 280,
+         "rent": 24,
+         "colour": 5
+      }
+   },
+   {
+      "type": "go_to_jail",
+      "detail": {
+         "name": "Go to jail",
+         "target": 10
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Regent property",
+         "price": 300,
+         "rent": 26,
+         "colour": 6
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Oxford property",
+         "price": 300,
+         "rent": 26,
+         "colour": 6
+      }
+   },
+   {
+      "type": "action",
+      "detail": {
+         "name": "Commnunity Chest",
+         "kind": "chest"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Bond property",
+         "price": 320,
+         "rent": 28,
+         "colour": 6
+      }
+   },
+   {
+      "type": "rail_road",
+      "detail": {
+         "name": "Liverpool St. rail_road",
+         "price": 200,
+         "rent": 25,
+      }
+   },
+   {
+      "type": "action",
+      "detail": {
+         "name": "Chance",
+         "kind": "chance"
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Park Lane",
+         "price": 350,
+         "rent": 35,
+         "colour": 7
+      }
+   },
+   {
+      "type": "tax",
+      "detail": {
+         "name": "tax",
+         "price": 100
+      }
+   },
+   {
+      "type": "property",
+      "detail": {
+         "name": "Mayfair",
+         "price": 400,
+         "rent": 50,
+         "colour": 7
+      }
+   }
+]
