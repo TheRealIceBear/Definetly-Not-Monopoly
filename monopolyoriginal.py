@@ -54,6 +54,7 @@ def turn():
             ownership[squares[player_position[current_player]]]=players[current_player]
         elif ownership[squares[player_position[current_player]]]!="-":
             cash[current_player]=cash[current_player]-rent[squares[player_position[current_player]]]
+            cash[ownership[player_position[current_player]]]=cash[ownership[player_position[current_player]]]+rent[squares[player_position[current_player]]]
     current_player=current_player+1
     current_player=current_player%4
     time.sleep(1)
