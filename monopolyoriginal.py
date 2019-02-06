@@ -2,10 +2,10 @@ import os
 import random
 import time
 
-ownership=["-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]
+ownership=[,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]
 squares=["",0,"",1,"",2,3,"",4,5,"",6,7,8,9,10,11,12,"",13,"",14,"",15,16,17,18,19,20,21,"",22,23,"",24,25,"",26,"",27]
 value=[60,60,200,100,100,120,140,150,140,160,200,180,180,200,220,220,240,200,260,260,150,280,300,300,320,200,350,400]
-rent=[2,4,0,6,6,8,10,0,10,12,0,14,14,16,18,18,20,0,22,22,0,24,26,26,28,0,35,50]
+rent=[2,4,"r",6,6,8,10,"u",10,12,"r",14,14,16,18,18,20,"r",22,22,"u",24,26,26,28,"r",35,50]
 players=["r","g","b","y"]
 cash=[1500,1500,1500,1500]
 player_position=[0,0,0,0]
@@ -52,6 +52,18 @@ def turn():
         if ownership[squares[player_position[current_player]]]=="-":
             cash[current_player]=cash[current_player]-value[squares[player_position[current_player]]]
             ownership[squares[player_position[current_player]]]=players[current_player]
+        elif rent[player_position[current_player]]=="r":
+            raailroads=0
+            if ownership[5]==ownership[player_position[current_player]]:
+                railroads=railroads+1
+            elif ownership[15]==ownership[player_position[current_player]]:
+                railroads=railroads+1
+            elif ownership[25]==ownership[player_position[current_player]]:
+                railroads=railroads+1
+            elif ownership[35]==ownership[player_position[current_player]]:
+                railroads=railroads+1
+            cash[current_player]=cash[current_player]-(25*railroads)
+            cash[ownership[player_position[current_player]]]=cash[ownership[player_position[current_player]]]+(25*railroads)  
         elif ownership[squares[player_position[current_player]]]!="-":
             cash[current_player]=cash[current_player]-rent[squares[player_position[current_player]]]
             cash[ownership[player_position[current_player]]]=cash[ownership[player_position[current_player]]]+rent[squares[player_position[current_player]]]
@@ -63,3 +75,4 @@ def turn():
 
 while 1==1:
     turn()
+
