@@ -62,7 +62,7 @@ def turn():
                 railroads=railroads+1
             if ownership[35]==ownership[player_position[current_player]]:
                 railroads=railroads+1
-            cash[current_player]=cash[current_player]-(25*railroads)
+            cash[current_player]=cash[current_player]-(25*(2^railroads))
             cash[ownership[player_position[current_player]]]=cash[ownership[player_position[current_player]]]+(25*railroads)  
         elif ownership[squares[player_position[current_player]]]!="-":
             cash[current_player]=cash[current_player]-rent[squares[player_position[current_player]]]
