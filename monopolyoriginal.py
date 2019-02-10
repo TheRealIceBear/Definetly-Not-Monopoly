@@ -56,11 +56,11 @@ def turn():
             raailroads=0
             if ownership[5]==ownership[player_position[current_player]]:
                 railroads=railroads+1
-            elif ownership[15]==ownership[player_position[current_player]]:
+            if ownership[15]==ownership[player_position[current_player]]:
                 railroads=railroads+1
-            elif ownership[25]==ownership[player_position[current_player]]:
+            if ownership[25]==ownership[player_position[current_player]]:
                 railroads=railroads+1
-            elif ownership[35]==ownership[player_position[current_player]]:
+            if ownership[35]==ownership[player_position[current_player]]:
                 railroads=railroads+1
             cash[current_player]=cash[current_player]-(25*railroads)
             cash[ownership[player_position[current_player]]]=cash[ownership[player_position[current_player]]]+(25*railroads)  
