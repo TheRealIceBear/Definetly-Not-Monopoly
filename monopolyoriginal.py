@@ -2,7 +2,7 @@ import os
 import random
 import time
 
-ownership=[,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]
+ownership=["-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-"]
 squares=["",0,"",1,"",2,3,"",4,5,"",6,7,8,9,10,11,12,"",13,"",14,"",15,16,17,18,19,20,21,"",22,23,"",24,25,"",26,"",27]
 value=[60,60,200,100,100,120,140,150,140,160,200,180,180,200,220,220,240,200,260,260,150,280,300,300,320,200,350,400]
 rent=[2,4,"r",6,6,8,10,"u",10,12,"r",14,14,16,18,18,20,"r",22,22,"u",24,26,26,28,"r",35,50]
@@ -53,7 +53,7 @@ def turn():
             cash[current_player]=cash[current_player]-value[squares[player_position[current_player]]]
             ownership[squares[player_position[current_player]]]=players[current_player]
         elif rent[player_position[current_player]]=="r":
-            raailroads=0
+            railroads=0
             if ownership[5]==ownership[player_position[current_player]]:
                 railroads=railroads+1
             if ownership[15]==ownership[player_position[current_player]]:
